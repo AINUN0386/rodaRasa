@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- App Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Roda Rasa"
+            android:textColor="@color/primary_orange"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- App Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roda Rasa is your ultimate food truck finder and meal planner app. We connect food lovers with the best mobile dining experiences in town."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our mission is to make discovering and tracking food trucks simple and enjoyable while helping you maintain a healthy diet."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Development Team Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Development Team"
+            android:textColor="@color/primary_orange"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Team Members Grid -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_marginBottom="32dp">
+
+            <!-- Team Member 1 - Dayah -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_background"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_orange_bg"
+                    android:padding="4dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/dayah_image_desc"
+                    app:srcCompat="@drawable/dayah" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nur Hidayah Binti Rosdi"
+                    android:textColor="@color/primary_orange"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matric: 2023367787"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Technology and Development"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- Team Member 2 - Intan -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_background"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_orange_bg"
+                    android:padding="4dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/intan_image_desc"
+                    app:srcCompat="@drawable/intan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intan Asmiera Binti Jamaluddin"
+                    android:textColor="@color/primary_orange"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matric: 2023367877"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Technology and Development"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- Team Member 3 - Nini -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_background"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_orange_bg"
+                    android:padding="4dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/nini_image_desc"
+                    app:srcCompat="@drawable/nini" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hani Nurhafizah Binti Chek Azis"
+                    android:textColor="@color/primary_orange"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matric: 2023371613"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Technology and Development"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- Team Member 4 - Ainun -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_background"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_orange_bg"
+                    android:padding="4dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/ainun_image_desc"
+                    app:srcCompat="@drawable/ainun" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ainun Shahirah Binti Che Derahman"
+                    android:textColor="@color/primary_orange"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matric: 2023437484"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Technology and Development"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </GridLayout>
+
+        <!-- Footer -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GitHub"
+                android:textColor="@color/primary_orange"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="© 2025 Roda Rasa"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

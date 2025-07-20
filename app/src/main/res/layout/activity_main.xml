@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:aandroid="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/logo_rodarasa"
+        android:contentDescription="App Logo" />
+
+    <!-- Login Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Email Field (Updated to match your requested style) -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext"
+        android:padding="16dp"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@color/text_gray"
+        android:textColor="@color/black"/>
+
+    <!-- Password Field (Updated to match your requested style) -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edittext"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="@color/text_gray"
+        android:textColor="@color/black"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        aandroid:textColor="@color/white"
+        android:backgroundTint="@color/primary_orange"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp" />
+
+    <!-- Divider with "Or" text -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_gray"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:paddingHorizontal="16dp"
+            android:text="Or"
+            android:textColor="@color/text_gray"/>
+    </RelativeLayout>
+
+    <!-- Sign Up Prompt -->
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="Didn't have an account? Sign Up"
+        android:textColor="@color/primary_orange"/>
+</LinearLayout>

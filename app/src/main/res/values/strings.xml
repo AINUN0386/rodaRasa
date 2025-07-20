@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">rodaRasa</string>
+    <string name="Maps_key">AIzaSyAQhelF3E2NiN1tNLD7sYG6XTGpvQhd_rE</string>
+    <string name="dayah_image_desc" />
+    <string name="intan_image_desc" />
+    <string name="nini_image_desc" />
+    <string name="ainun_image_desc" />
+
+        <!-- Features -->
+    <string name="features_title">Key Features</string>
+    <string name="feature1_title">Truck Tracker</string>
+    <string name="feature1_desc">Live GPS tracking of food trucks</string>
+    <string name="feature2_title">Meal Planner</string>
+    <string name="feature2_desc">Create balanced meal plans</string>
+    <string name="feature3_title">Reviews</string>
+    <string name="feature3_desc">See community ratings</string>
+    <string name="feature4_title">Nutrition Info</string>
+    <string name="feature4_desc">Calorie and allergen details</string>
+
+    <!-- Technical -->
+<string name="technical_details">Technical Details</string>
+<string name="database_label">Database:</string>
+<string name="database_value">Firebase Realtime DB</string>
+<string name="sdk_label">Min SDK:</string>
+<string name="sdk_value">Android 8.0 (Oreo)</string>
+
+    <!-- Actions -->
+<string name="rate_app">Rate Our App</string>
+<string name="share_app">Share Roda Rasa</string>
+<string name="privacy_policy">Privacy Policy</string>
+<string name="terms_of_service">Terms of Service</string>
+    <string name="app_logo_desc" />
+    <string name="app_version" />
+    <string name="app_description" />
+</resources>

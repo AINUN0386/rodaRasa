@@ -1,0 +1,10 @@
+<resources>
+    <!-- Your existing styles -->
+
+    <!-- Add this new style -->
+    <style name="Button.NoElevation" parent="Widget.AppCompat.Button">
+        <item name="android:elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+</resources>

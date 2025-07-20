@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main" type="id" />
+    <item name="etPassword" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="btnLogin" type="id" />
+    <item name="welcomeLogo" type="id" />
+    <item name="welcomeText" type="id" />
+    <item name="welcomeSubText" type="id" />
+    <item name="btnGetStarted" type="id" />
+    <item name="btnConfigureDiet" type="id" />
+    <item name="bottom_navigation" type="id" />
+    <item name="nav_about" type="id" />
+    <item name="nav_map" type="id" />
+    <item name="btnAboutUs" type="id" />
+    <item name="btnMaps" type="id" />
+</resources>
